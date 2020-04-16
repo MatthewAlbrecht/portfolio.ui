@@ -18,7 +18,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'Matt Albrecht',
   },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [
@@ -26,6 +26,8 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-root-import',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
