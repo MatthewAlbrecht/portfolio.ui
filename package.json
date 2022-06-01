@@ -20,7 +20,7 @@
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "sass-loader": "^8.0.2",
-    "sharp": "^0.25.1"
+    "sharp": "^0.30.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
